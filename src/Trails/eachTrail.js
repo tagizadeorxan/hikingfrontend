@@ -12,7 +12,7 @@ class Trail extends Component {
     getHikingData = () => {
      
 
-        fetch(`http://localhost:8080/api/data/hikings/${this.props.match.params.id}`).then(res => res.json()).then(data => this.setState({ ...this.state, data }))
+        fetch(`https://hikings.herokuapp.com/api/data/hikings/${this.props.match.params.id}`).then(res => res.json()).then(data => this.setState({ ...this.state, data }))
     }
 
     render() {
