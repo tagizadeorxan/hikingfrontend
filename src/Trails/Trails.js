@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, NavLink } from 'react-router-dom'
-import Trail from './eachTrail';
+import { NavLink } from 'react-router-dom'
 import './Trails.css';
 
 class Trails extends Component {
@@ -23,9 +22,9 @@ class Trails extends Component {
                 <div>{trails.length > 0 ?
                     <div className="trails">
                         {trails.map((e, i) => <div key={i} className="each-trail" >
-                        <img style={{width:'20px', height:'20px'}} src={require(`../icons/${e.type}.png`)}/>
+                        <img alt="icon" style={{width:'20px', height:'20px'}} src={require(`../icons/${e.type}.png`)}/>
                         <NavLink className="each-trail-name"  to={`/trails/${e.id}`}><div><span>{e.name}</span></div></NavLink>
-                            <img style={{width:'200px',height:'150px'}} src={e.image1}/>
+                            <img alt="hiking" style={{width:'200px',height:'150px'}} src={e.image1}/>
                         </div>)}
                     </div>
 

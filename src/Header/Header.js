@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <>
             <header>
-                <img src={require('../icons/hiking.png')} />
+                <img alt="header" src={require('../icons/hiking.png')} />
             </header>
            
            </>

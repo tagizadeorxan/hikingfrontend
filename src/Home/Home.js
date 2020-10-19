@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'
-import Trails from '../Trails';
+
 
 
 class Home extends Component {
@@ -8,7 +8,7 @@ class Home extends Component {
         return (
             <>
             <div className="home-container">
-                <h1><span style={{fontSize:'70px'}}>WELC<img className="App-logo" src={require('../icons/earth.png')} />ME</span></h1>
+                <h1><span style={{fontSize:'70px'}}>WELC<img alt="app-logo" className="App-logo" src={require('../icons/earth.png')} />ME</span></h1>
 
                 <div>
                     <span>Trails:</span>
