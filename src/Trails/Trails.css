@@ -31,7 +31,7 @@
 @media (min-height: 680px), screen and (orientation: portrait) { 
   .each-trail {
     align-self: center;
-    height: 250px;
+    height: 25px;
   }
 
 }
