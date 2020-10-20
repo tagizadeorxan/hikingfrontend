@@ -39,15 +39,4 @@ img {
     
 }
 
-.back-button {
-    margin-left: 13%;
-    border:1px solid #e8cea8;
-    font-size: 10px;
-    background-color: #b1d2e5;
-    color: white;
-    cursor: pointer;
-}
 
-.back-button:hover {
-    background-color: #e8cea8;
-}

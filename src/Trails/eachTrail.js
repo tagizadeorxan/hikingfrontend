@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import './eachTrail.css';
+import {CircularProgress, Button} from '@material-ui/core';
 
 class Trail extends Component {
     state = { data: [] }
@@ -24,7 +25,7 @@ class Trail extends Component {
 
             
                 { data.length > 0 ? <div className="data-container">
-                <button onClick={()=>this.props.history.goBack()} className="back-button">back</button>
+                <Button style={{marginLeft:'5%'}} variant="contained" color="secondary" onClick={()=>this.props.history.goBack()} className="back-button">back</Button>
                 <div className="images">
                
             
@@ -41,7 +42,7 @@ class Trail extends Component {
                 </div>
                     
                    
-                </div> : <p>loading</p>}
+                </div> : <CircularProgress style={{display:'block',marginLeft:'auto',marginRight:'auto'}}/>}
             </>
         )
     }

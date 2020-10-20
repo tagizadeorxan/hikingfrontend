@@ -28,6 +28,9 @@
     vertical-align: middle;
 }
 
+
+
+
 @media (min-height: 680px), screen and (orientation: portrait) { 
   .each-trail {
   align-self: center;

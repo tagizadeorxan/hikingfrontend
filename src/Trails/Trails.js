@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 import './Trails.css';
+import {CircularProgress} from '@material-ui/core';
 
 class Trails extends Component {
 
@@ -27,8 +28,9 @@ class Trails extends Component {
                             <img alt="hiking" style={{width:'200px',height:'150px'}} src={e.image1}/>
                         </div>)}
                     </div>
-
-                    : <span>Loading...</span>}</div>
+ 
+                    : <CircularProgress style={{display:'block',marginLeft:'auto',marginRight:'auto'}}/>
+                    }</div>
             </>
         )
     }
