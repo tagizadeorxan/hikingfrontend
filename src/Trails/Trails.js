@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink,Link, useParams } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Trails.css';
 import { CircularProgress } from '@material-ui/core';
-import Typography from '@material-ui/core/Typography';
+
 import Pagination from '@material-ui/lab/Pagination';
 
 
@@ -28,7 +28,7 @@ let Trails = () => {
 
     return (
         <>
-           {console.log(pageSize)}
+        
             <div >{trails.length > 0 ?
               
     
