@@ -1,39 +1,33 @@
 .trails {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .each-trail {
-    flex-basis:25%;
-    text-align: center;
-    height: 250px;
-    min-width: 250px;
-    
+  
+  text-align: center;
+  height: 250px;
+  min-width: 250px;
 }
 
 .each-trail-name {
-    text-decoration: none;
-    color:black;
- 
+  text-decoration: none;
+  color: black;
 }
 
 .each-trail-name div {
- height: 40px;
- 
+  height: 40px;
 }
 
 .each-trail-name img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-
-
-
-@media (min-height: 680px), screen and (orientation: portrait) { 
+@media (min-height: 680px), screen and (orientation: portrait) {
   .each-trail {
-  align-self: center;
+    align-self: center;
   }
-
 }
