@@ -4,6 +4,15 @@
   flex-wrap: wrap;
   margin-top: 40px;
   justify-content: center;
+  
+}
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .each-trail {

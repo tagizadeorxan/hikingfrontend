@@ -13,8 +13,8 @@ function App() {
     <Router>
       <Header />
     
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/" component={Trails}/>
+      <Route path="/" component={Home}/>
+      <Route  component={Trails} path={`/:pageNumber`}/>
       <Route exact path='/trails/:id' component={Trail} />
     </Router>
 

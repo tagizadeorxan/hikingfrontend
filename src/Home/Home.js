@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Trails from '../Trails/Trails.js'
 import './Home.css'
 
 
@@ -14,7 +15,7 @@ class Home extends Component {
                     <span>Trails:</span>
                 </div>
 
-                
+                <Trails/>
 
             </div>
            
