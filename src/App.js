@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Trails from './Trails';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Trail from './Trails/eachTrail.js';
 import Header from './Header';
