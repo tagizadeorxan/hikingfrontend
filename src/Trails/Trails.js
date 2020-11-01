@@ -53,7 +53,7 @@ let Trails = () => {
    </div>
       </div>
 
-                : <CircularProgress style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+                : <CircularProgress style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', marginTop:"10%" }} />
             }
 
                

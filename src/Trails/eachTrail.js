@@ -42,7 +42,7 @@ class Trail extends Component {
                 </div>
                     
                    
-                </div> : <CircularProgress style={{display:'block',marginLeft:'auto',marginRight:'auto'}}/>}
+                </div> : <CircularProgress style={{display:'block',marginLeft:'auto',marginRight:'auto', marginTop:"10%"}}/>}
             </>
         )
     }
