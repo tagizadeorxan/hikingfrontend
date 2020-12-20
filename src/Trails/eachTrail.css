@@ -3,7 +3,7 @@
 .data-info {
     margin-top: 15px;
     display: flex;
-    width: 60%;
+    width: 80%;
     margin-left: 6%;
     justify-content: center;
    text-align: start;
@@ -18,8 +18,7 @@ iframe {
 img {
     width: 250px;
     height: 200px;
-    margin-left: 5%;
-    margin-right: 5%;
+
     border-radius: 5%;
 }
 
@@ -43,3 +42,22 @@ img {
 }
 
 
+@media (min-height: 680px), screen and (orientation: portrait) {
+  .images {
+   flex-direction: column;
+   margin-top: 5px;
+  }
+
+  .images iframe {
+      margin-top: 5px;
+      width: 250px;
+      height: 200px;
+  
+      border-radius: 5%;
+  }
+
+   .back-button {
+       margin-bottom: 5px;
+   }
+ 
+}

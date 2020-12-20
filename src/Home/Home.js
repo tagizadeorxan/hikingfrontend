@@ -12,7 +12,7 @@ class Home extends Component {
                
                     
                     <div className="home-container">
-                        <h1><span style={{ fontSize: '70px' }}>WELC<img alt="app-logo" className="App-logo" src={require('../icons/earth.png')} />ME</span></h1>
+                        <h1><span className="home-container-text">WELC<img alt="app-logo" className="App-logo" src={require('../icons/earth.png')} />ME</span></h1>
                         <Trails />
                     </div>
 
