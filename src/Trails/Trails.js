@@ -29,7 +29,7 @@ let Trails = () => {
     return (
         <>
         
-            <div >{trails.length > 0 ?
+            <div className="trails-container" >{trails.length > 0 ?
               
     
       <div>

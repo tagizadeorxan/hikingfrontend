@@ -13,6 +13,7 @@
 
 iframe {
     border-radius: 5%;
+    margin-left: 5%;
 }
 
 img {
@@ -42,17 +43,24 @@ img {
 }
 
 
-@media (min-height: 680px), screen and (orientation: portrait) {
+@media (max-height: 680px), screen and (orientation: portrait) {
   .images {
    flex-direction: column;
    margin-top: 5px;
+
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .images iframe {
       margin-top: 5px;
       width: 250px;
       height: 200px;
-  
+      margin-left: auto;
+      margin-right: auto;
       border-radius: 5%;
   }
 
